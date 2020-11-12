@@ -1,0 +1,13 @@
+.error-new-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.new-search-image {
+  width: 60%;
+}
