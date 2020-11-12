@@ -44,7 +44,7 @@ function Content({ post }) {
 
   return (
     <div className='content'>
-      <a href={`https://www.reddit.com${post.permalink}`} target='_blank' className='title'>{post.title}</a>
+      <a href={`https://www.reddit.com${post.permalink}`} target='_blank' rel='noreferrer' className='title'>{post.title}</a>
       <span>Submitted by {post.author}</span>
       <Buttons comments={post.num_comments} />
     </div>
