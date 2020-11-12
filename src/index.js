@@ -9,7 +9,7 @@ function App() {
   const [posts, setPosts] = useState([]);
   const [value, setValue] = useState('Type here');
   const [searchTerm, setSearchTerm] = useState('dachshund');
-  const [error, setError] = useState(true);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     fetch(`https://www.reddit.com/r/${searchTerm}.json`)
