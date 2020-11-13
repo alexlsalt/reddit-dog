@@ -57,7 +57,7 @@ function App() {
       {
         !error &&
         <>
-        <h2 className='heading'>Displaying top /r/{searchTerm} posts from Reddit...</h2>
+        <h2 className='heading'>Displaying top {searchTerm} posts from Reddit...</h2>
         <div className='search'>
         <h3>Search new category:</h3>
         <form>
