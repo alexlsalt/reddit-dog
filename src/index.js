@@ -2,6 +2,7 @@ import { React, useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import Post from "./Post";
 import Error from "./Error";
+import Header from "./Header";
 import "./index.css";
 
 
@@ -57,6 +58,7 @@ function App() {
       {
         !error &&
         <>
+        <Header text="Welcome to Reddit Dog!" />
         <h2 className='heading'>Displaying top {searchTerm} posts from Reddit...</h2>
         <div className='search'>
         <h3>Search new category:</h3>
